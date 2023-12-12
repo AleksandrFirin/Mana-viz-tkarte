@@ -1,0 +1,97 @@
+body {
+    background-color: rgb(238, 235, 221);
+    font-family: 'Ubuntu', sans-serif;;
+}
+.btn-outline {
+    --bs-btn-color: rgb(99, 0, 0);
+    --bs-btn-border-color: rgb(99, 0, 0);
+    --bs-btn-hover-color: rgb(238, 235, 221);
+    --bs-btn-hover-bg: rgb(99, 0, 0);
+    --bs-btn-hover-border-color: rgb(0, 0, 0);
+    --bs-btn-focus-shadow-rgb: 108,117,125;
+}
+.grid-container1 {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 25px;
+}
+
+.grid-container2 {
+    display: grid;
+    height: 11rem;
+    border: 7px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 25px;
+    background-color: rgb(216, 182, 164);
+    border-radius: 12px;
+}
+.grid-container3 {
+    display: grid;
+    width: 30%;
+    height: 4rem;
+    margin-left: 35%;
+    margin-right: 35%;
+    background-color: rgb(99, 0, 0);
+    border-radius: 12px;
+}
+h2 {
+    color: rgb(238, 235, 221);
+    text-align: center;
+    vertical-align: middle;
+}
+h4 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: small;
+}
+.col {
+    display: grid;
+    height: 13rem;
+    margin-top: 25px;
+    background-color: rgb(216, 182, 164);
+    border-radius: 12px;
+}
+.colon2 {
+    margin-left: 25px;
+    border: 3px;
+}
+.colon3 {
+    margin-left: 25px;
+    border: 3px;
+}
+.colon4 {
+    margin-left: 25px;
+    border: 3px;
+}
+.colonfoto {
+    border: 3px;
+    border-color: black;
+    border-radius: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container5 {
+    margin-top: 25px;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+p {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 1rem;
+    margin-bottom: auto;
+}
+.fotor {
+    border: 3px;
+    border-color: black;
+    border-radius: 12px;  
+}
+
+.spis {
+    display: table;
+    margin: auto;
+  }
